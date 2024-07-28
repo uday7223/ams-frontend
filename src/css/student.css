@@ -1,0 +1,70 @@
+.student{
+    display: flex;
+    justify-content: center;
+    background: url('../images/bg-img-5.jpg') ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    color: yellow;
+    flex-direction: column;
+
+}
+
+.student .student-con-1{
+    margin: 100px auto;
+
+}
+
+.student .student-con-1{
+    margin: 100px auto;
+    font-size: 30px;
+    letter-spacing: 2px;
+    line-height: 40px;
+    /* text-align: center; */
+}
+
+
+
+
+.student .student-con-2{
+    margin: 10px auto;
+    display: flex;
+    flex-direction: column;
+
+
+
+}
+
+.student .student-con-2 textarea{
+  width: 100%;
+  height: 150px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  font-size: 20px;
+  resize: none;
+  
+}
+
+.student .student-con-2 button{
+    margin: 40px auto   ;
+    width: 100%;
+    background-color: #ffffff;
+    color: #080710;
+    padding: 18px 0;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+.student .student-con-2 h3{
+   
+margin: 5px auto;
+font-weight: normal;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
